@@ -1,4 +1,4 @@
-FROM tomcat:7.0
+FROM tomcat:8-jre8
 
 COPY target/emptyspringrest.war /usr/local/tomcat/webapps/emptyspringerest.war
 
